@@ -41,7 +41,7 @@ export default function Footer() {
           {/* Center - Description */}
           <div className="text-center">
             <p className="text-sm text-zinc-500 dark:text-zinc-400 mb-2">
-              Solana Price Dashboard with Phantom Wallet Integration
+              Solana Price Dashboard with Wallet Integration
             </p>
             <p className="text-xs text-zinc-400 dark:text-zinc-500">
               Powered by Birdeye API & Solana Web3.js

@@ -9,13 +9,13 @@ export default function HomePage() {
       <Navbar />
       
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        {/* Hero Section */}
+
         <div className="text-center mb-12">
           <h1 className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-purple-600 via-blue-600 to-cyan-600 bg-clip-text text-transparent mb-4">
             Solana Price Dashboard
           </h1>
           <p className="text-lg text-zinc-600 dark:text-zinc-400 max-w-2xl mx-auto">
-            Connect your Phantom wallet and monitor live SOL prices with real-time updates from Birdeye API
+            Connect your Phantom/Solflare wallet and monitor live SOL prices with real-time updates from Birdeye API
           </p>
         </div>
 
