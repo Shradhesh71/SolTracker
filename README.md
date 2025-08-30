@@ -2,6 +2,8 @@
 
 A minimalistic Solana price dashboard with Phantom wallet integration.
 
+![SolTracker Dashboard](./public/image.png)
+
 ## Features
 
 - 🔗 **Phantom Wallet Integration** - Connect wallet with one click

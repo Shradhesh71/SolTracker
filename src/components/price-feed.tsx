@@ -18,7 +18,6 @@ export function PriceFeed() {
   const [previousPrice, setPreviousPrice] = useState<number | null>(null);
 
   const SOL_ADDRESS = "So11111111111111111111111111111111111111112"; // SOL token address
-  const API_KEY = "7c700b03c0ea4ff9b3906f7d412bdc0c";
 
   const fetchPrice = async () => {
     setLoading(true);
@@ -29,7 +28,7 @@ export function PriceFeed() {
         `https://public-api.birdeye.so/defi/price?address=${SOL_ADDRESS}`,
         {
           headers: {
-            "X-API-KEY": API_KEY,
+            "X-API-KEY": process.env.NEXT_PUBLIC_API_KEY!,
           },
         }
       );
